@@ -1,0 +1,24 @@
+
+Ejemplo de un archivo .txt 
+¿Qué es programación?
+Programación es el proceso de tomar un algoritmo y codificarlo en una notación, un lenguaje de programación,
+de modo que pueda ser ejecutado por una computadora. Aunque existen muchos lenguajes de programación y 
+muchos tipos diferentes de computadoras, el primer paso es la necesidad de tener una solución. 
+ 
+Sin un algoritmo no puede haber un programa.
+
+Las ciencias de la programación no son el estudio de la programación.
+La programación, sin embargo, es una parte importante de lo que hace un científico de la computación. 
+La programación es a menudo la manera en la que creamos una representación para nuestras soluciones. 
+Por tanto, esta representación en un lenguaje y el proceso de crearla se convierte en una parte fundamental de la 
+disciplina.
+
+Los algoritmos describen la solución a un problema en términos de los datos requeridos para representar el caso 
+del problema y el conjunto de pasos necesarios para producir el resultado pretendido. 
+Los lenguajes de programación deben suministrar un modo notacional para representar tanto el proceso como los datos. 
+Para este fin, los lenguajes suministran estructuras de control y tipos de datos.
+
+Las estructuras de control permiten que los pasos algorítmicos sean representados de una manera conveniente pero 
+sin ambigüedades. Como mínimo, los algoritmos requieren estructuras que lleven a cabo procesamiento secuencial, 
+selección para toma de decisiones e iteraciones para control repetitivo. Siempre y cuando el lenguaje proporcione 
+estas instrucciones básicas, éste puede ser usado para la representación del algoritmo.
