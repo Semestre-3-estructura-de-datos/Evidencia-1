@@ -1,0 +1,14 @@
+Qué es la programacion orientada a objetos
+
+La programación Orientada a objetos se define como un paradigma de la programación, una manera de programar específica
+donde se organiza el código en unidades denominadas clases, de las cuales se crean objetos que se relacionan entre sí 
+a conseguir los objetivos de las aplicaciones.
+
+La programación Orientada a objetos (POO) es una forma especial de programar, 
+más cercana a como expresaríamos las cosas en la vida real que otros tipos de programación.
+
+Al programar orientado a objetos tenemos que aprender a pensar cómo resolver los problemas 
+de una manera distinta a como se realizaba anteriormente, en la programación estructurada. 
+Ahora tendremos que escribir nuestros programas en términos de clases, objetos, propiedades, métodos y otras cosas 
+que veremos rápidamente para aclarar conceptos y dar una pequeña base que permita soltarnos un poco con los conceptos 
+este tipo de programación.

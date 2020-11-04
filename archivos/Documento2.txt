@@ -1,0 +1,9 @@
+
+Para que sirve la libreria shutil?
+
+El módulo shutil consta, entre otras, de funciones para realizar operaciones de alto nivel con archivos 
+y/o directorios. Dentro de las operaciones que se pueden realizar está copiar, mover y borrar archivos 
+y/o directorios; y copiar los permisos y el estado de los archivos.
+
+También, hay otras funciones adicionales para localizar ejecutables, cambiar el propietario y/o 
+el grupo de un archivo/directorio; y consultar información del espacio de un disco

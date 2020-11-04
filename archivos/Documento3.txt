@@ -1,0 +1,5 @@
+para que sirve una funcion ?
+
+Una función es un bloque de código con un nombre asociado, que recibe cero o más argumentos como entrada, 
+sigue una secuencia de sentencias, la cuales ejecuta una operación deseada y devuelve un valor y/o realiza una tarea,
+este bloque puede ser llamados cuando se necesite.
