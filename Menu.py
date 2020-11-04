@@ -1,5 +1,6 @@
 import shutil 
 import sys
+import os 
 from daniel import copiar
 from daniel import mover
 
@@ -19,6 +20,9 @@ try:
             carpeta=input("Como se llama la carpeta donde esta en archivo : ")
             archivo=input("Como se llama el archivo que quieres copiar : ")
             nombre=input("Dime como quieres que se llame la copia  : ")
+            print(separador)
+            directorio_actual=os.getcwd()
+            print(f"El Directorio actual es :{directorio_actual}")
             print(separador)
             original=(carpeta +"/"+ archivo + ".txt")
             nombre2=(carpeta+"/"+nombre+".txt")
@@ -45,7 +49,7 @@ try:
 
 
 
-        elif opcion=4:
+        elif opcion==4:
             #Aqui va OSCAR 
             pass
 
