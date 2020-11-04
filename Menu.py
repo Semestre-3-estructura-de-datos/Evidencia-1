@@ -15,7 +15,8 @@ try:
 
         if opcion==1:
             nombre=input("Dime como quieres que se llame la copia del documento ya existente : ")
-            copiar(nombre)
+            nombre2=("archivos/"+nombre+".txt")
+            copiar(nombre2)
             print("1=SI\n2=NO")
             menu=int(input("Deseas regresar al menu principal : "))
 
