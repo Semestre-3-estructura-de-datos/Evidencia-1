@@ -29,8 +29,14 @@ try:
 
         elif opcion==2:
             carpeta=input("Como se llama la carpeta donde esta en archivo : ")
-            archivo=input("Como se llama el archivo que quieres copiar : ")
-            nombre=input("Dime como quieres que se llame la copia  : ")
+            archivo=input("Como se llama la carpeta a donde lo quieres mover : ")
+            nombre=input("Dime como se llama el archivo  : ")
+            print(separador)
+            archivox=(carpeta+"/"+nombre +".txt")
+            mover(archivox,archivo)
+            print("1=SI\n2=NO")
+            menu=int(input("Deseas regresar al menu principal : "))
+            print("")
 
 
 
