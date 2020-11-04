@@ -10,7 +10,8 @@ try:
     while menu ==1:
         print(separador+"BIENVENIDO AL Menu Principal: "+separador)
         print("-"*15+"Menu de opciones: "+"-"*15)
-        print("1=Quiero copiar un documento entre directorios del sistema de archivos\n2=Quiero mover un documento entre directorios del sistema de archivos")
+        print("1=Quiero copiar un documento entre directorios del sistema de archivos.\n2=Quiero mover un documento entre directorios del sistema de archivos.")
+        print("3=Aplicación de listas como estructuras de datos nativas caso teórico.\n4=Aplicación de tuplas como estructuras de datos nativas.")
         opcion=int(input("Que opcion eliges : "))
         print(separador)
 
@@ -37,6 +38,16 @@ try:
             print("1=SI\n2=NO")
             menu=int(input("Deseas regresar al menu principal : "))
             print("")
+        
+        elif opcion==3:
+            #Aqui va JARED
+            pass
+
+
+
+        elif opcion=4:
+            #Aqui va OSCAR 
+            pass
 
 
 
