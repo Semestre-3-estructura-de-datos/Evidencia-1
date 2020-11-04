@@ -28,7 +28,9 @@ try:
             print("")
 
         elif opcion==2:
-            pass
+            carpeta=input("Como se llama la carpeta donde esta en archivo : ")
+            archivo=input("Como se llama el archivo que quieres copiar : ")
+            nombre=input("Dime como quieres que se llame la copia  : ")
 
 
 
