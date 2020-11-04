@@ -67,6 +67,9 @@ except:
 finally:
     print("*"*30)
     print(f"{os.path.getsize('archivos')} bytes de la carpeta archivos")
+    print("*"*30)
+    print(f"{os.path.getsize('archivomover')} bytes de la carpeta archivomover")
+    print("*"*30)
     print("FIN DEL CODIGO ...")
     print("*"*30)
        
