@@ -17,15 +17,15 @@ try:
         print(separador)
 
         if opcion==1:
-            carpeta=input("Como se llama la carpeta donde esta en archivo : ")
-            archivo=input("Como se llama el archivo que quieres copiar : ")
-            nombre=input("Dime como quieres que se llame la copia  : ")
+            carpeta=input("Como se llama la carpeta donde esta el archivo : ")
+            archivo=input("Como se llama el archivo que quieres copiar con su extension: ")
+            nombre=input("Dime como quieres que se llame la copia con su extension  : ")
             print(separador)
             directorio_actual=os.getcwd()
             print(f"El Directorio actual es :{directorio_actual}")
             print(separador)
-            original=(carpeta +"/"+ archivo + ".txt")
-            nombre2=(carpeta+"/"+nombre+".txt")
+            original=(carpeta +"/"+ archivo)
+            nombre2=(carpeta+"/"+nombre)
             copiar(original,nombre2,carpeta)
             print(separador)
             print("1=SI\n2=NO")
@@ -33,14 +33,14 @@ try:
             print("")
 
         elif opcion==2:
-            carpeta=input("Como se llama la carpeta donde esta en archivo : ")
+            carpeta=input("Como se llama la carpeta donde esta el archivo : ")
             archivo=input("Como se llama la carpeta a donde lo quieres mover : ")
-            nombre=input("Dime como se llama el archivo  : ")
+            nombre=input("Dime como se llama el archivo con su extension  : ")
             print(separador)
             directorio_actual=os.getcwd()
             print(f"El Directorio actual es :{directorio_actual}")
             print(separador)
-            archivox=(carpeta+"/"+nombre +".txt")
+            archivox=(carpeta+"/"+nombre)
             mover(archivox,archivo)
             print("1=SI\n2=NO")
             menu=int(input("Deseas regresar al menu principal : "))
@@ -65,6 +65,8 @@ except:
     print("*"*30)
     
 finally:
+    print("*"*30)
+    print(f"{os.path.getsize('archivos')} bytes de la carpeta archivos")
     print("FIN DEL CODIGO ...")
     print("*"*30)
        
