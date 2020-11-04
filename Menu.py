@@ -12,13 +12,24 @@ try:
         print("-"*15+"Menu de opciones: "+"-"*15)
         print("1=Quiero copiar un documento entre directorios del sistema de archivos\n2=Quiero mover un documento entre directorios del sistema de archivos")
         opcion=int(input("Que opcion eliges : "))
+        print(separador)
 
         if opcion==1:
-            nombre=input("Dime como quieres que se llame la copia del documento ya existente : ")
-            nombre2=("archivos/"+nombre+".txt")
-            copiar(nombre2)
+            carpeta=input("Como se llama la carpeta donde esta en archivo : ")
+            archivo=input("Como se llama el archivo que quieres copiar : ")
+            nombre=input("Dime como quieres que se llame la copia  : ")
+            print(separador)
+            original=(carpeta +"/"+ archivo + ".txt")
+            nombre2=(carpeta+"/"+nombre+".txt")
+            copiar(original,nombre2,carpeta)
+            print(separador)
             print("1=SI\n2=NO")
             menu=int(input("Deseas regresar al menu principal : "))
+            print("")
+
+        elif opcion==2:
+            pass
+
 
 
 except:
