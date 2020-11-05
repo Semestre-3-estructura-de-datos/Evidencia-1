@@ -7,6 +7,7 @@ from daniel import mover
 
 separador=("*"*40)
 menu=1
+datos = []
 try:
     while menu ==1:
         print(separador+"BIENVENIDO AL Menu Principal: "+separador)
@@ -47,8 +48,26 @@ try:
             print("")
         
         elif opcion==3:
-            #Aqui va JARED
-            pass
+            while opcion==3:
+                menu=int(input("1:Agregar datos\n2:Ver tamaño de bytes en LISTA\n3:Ver tamaño de bytes en TUPLA\n4:Salir\n:"))
+                if menu == 1:
+                    cuantos=int(input("Dime cuantos datos quieres agregar a la lista :"))
+                    for x in range (cuantos):
+                        a=input("Dame un dato : ")
+                        datos.append(a)
+                    print("Los datos ya estan agregados")
+                    print(separador)
+                    print("")
+
+                elif menu == 2:
+                    if datos == []:
+                        print("Tienes que agregar elementos")
+                        print(separador)
+                        print("")
+                    else:
+                        print(f"El numero de elementos de la lista es :{len(datos)} y su tamaño es :{sys.getsizeof(datos)} bytes")
+                        print(separador)
+                        pass            
 
 
 
