@@ -67,8 +67,20 @@ try:
                     else:
                         print(f"El numero de elementos de la lista es : {len(datos)} y su tamaño es : {sys.getsizeof(datos)} bytes")
                         print(separador)
-                        pass            
+                        pass
 
+                elif menu == 3:
+                    if datos == []:
+                        print("Tienes que agregar elementos")
+                        print(separador)
+                    else:
+                        tupla = tuple(datos)
+                        print(f"El numero de elementos de la tupla es {len(tupla)} y su tamaño es : {sys.getsizeof(tupla)} bytes")
+                        print(separador)
+                        pass
+
+                elif menu == 4:
+                    break
 
 
 
