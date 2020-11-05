@@ -23,7 +23,7 @@ try:
             nombre=input("Dime como quieres que se llame la copia con su extension  : ")
             print(separador)
             directorio_actual=os.getcwd()
-            print(f"El Directorio actual es :{directorio_actual}")
+            print(f"El Directorio actual es : {directorio_actual}")
             print(separador)
             original=(carpeta +"/"+ archivo)
             nombre2=(carpeta+"/"+nombre)
@@ -39,7 +39,7 @@ try:
             nombre=input("Dime como se llama el archivo con su extension  : ")
             print(separador)
             directorio_actual=os.getcwd()
-            print(f"El Directorio actual es :{directorio_actual}")
+            print(f"El Directorio actual es : {directorio_actual}")
             print(separador)
             archivox=(carpeta+"/"+nombre)
             mover(archivox,archivo)
@@ -65,7 +65,7 @@ try:
                         print(separador)
                         print("")
                     else:
-                        print(f"El numero de elementos de la lista es :{len(datos)} y su tamaño es :{sys.getsizeof(datos)} bytes")
+                        print(f"El numero de elementos de la lista es : {len(datos)} y su tamaño es : {sys.getsizeof(datos)} bytes")
                         print(separador)
                         pass            
 
