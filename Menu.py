@@ -49,7 +49,7 @@ try:
         
         elif opcion==3:
             while opcion==3:
-                menu=int(input("1:Agregar datos\n2:Ver tamaño de bytes en LISTA\n3:Ver tamaño de bytes en TUPLA\n4:Salir\n:"))
+                menu=int(input("1=Agregar datos\n2=Ver tamaño de bytes en LISTA\n3=Ver tamaño de bytes en TUPLA\n4=3Salir\n:"))
                 if menu == 1:
                     print(separador)
                     cuantos=int(input("Dime cuantos datos quieres agregar a la lista :"))
